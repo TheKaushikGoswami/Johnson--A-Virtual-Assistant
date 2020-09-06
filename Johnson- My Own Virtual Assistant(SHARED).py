@@ -76,7 +76,7 @@ if __name__ == "__main__":
         elif 'open youtube' in query:
             speak("Opening YouTube...")
             print("Opening YouTube...")
-            webbrowser.open_new("https://www.youtube.com"
+            webbrowser.open_new("https://www.youtube.com")
 
         elif 'open google' in query:
             speak("Opening Google...")
