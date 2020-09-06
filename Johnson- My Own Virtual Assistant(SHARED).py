@@ -76,12 +76,7 @@ if __name__ == "__main__":
         elif 'open youtube' in query:
             speak("Opening YouTube...")
             print("Opening YouTube...")
-            webbrowser.open_new("https://www.youtube.com")
-
-        elif 'open my school' in query:
-            speak("Opening Sainik School Purulia...")
-            print("Opening Sainik School Purulia...")
-            webbrowser.open_new("http://sainikschoolpurulia.com")
+            webbrowser.open_new("https://www.youtube.com"
 
         elif 'open google' in query:
             speak("Opening Google...")
@@ -116,7 +111,7 @@ if __name__ == "__main__":
             print(strTime)
 
         elif 'open visual studio' in query:
-            visualstudiopath = "C:\\Users\\asus\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+            visualstudiopath = "C:\\Users\\(USER NAME)\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
             os.startfile(visualstudiopath)
             speak("Opening Visual Studio Code...")
             print("Opening Visual Studio Code...")
@@ -181,12 +176,6 @@ if __name__ == "__main__":
             speak("Opening Scratch...")
             print("Opening Scratch...")
 
-        elif 'open emulator' in query:
-            emulatorpath = "E:\\XuanZhi\\LDPlayer\\dnplayer.exe"
-            os.startfile(emulatorpath)
-            speak("Opening LDPlayer Emulator...")
-            print("Opening LDPlayer Emulator...")
-
         elif 'email to mum' in query:
             try:
                 speak("What should I say Sir?")
@@ -248,16 +237,16 @@ if __name__ == "__main__":
 
         elif 'who are you' in query:
             speak("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - Theee Kaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
-            print("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - Theee Kaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
+            print("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - TheKaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
 
         elif 'about you' in query:
             speak("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - Theee Kaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
-            print("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - Theee Kaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
+            print("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - TheKaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
         
         elif 'your introduction' in query:
             speak("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - Theee Kaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and  virtual assistant... Thank You for using me...")
-            print("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - Theee Kaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
+            print("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - TheKaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
 
         elif 'introduce yourself' in query:
             speak("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - Theee Kaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
-            print("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - Theee Kaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
+            print("I am Johnson Sir! I have been created by a passionate, young and intelligent software developer named: - TheKaushik Goswami. I am made for helping you in your daily works by making your work easier. I am currently in development and soon going to get many other features... Hope that you will not mind me being your digital and virtual assistant... Thank You for using me...")
